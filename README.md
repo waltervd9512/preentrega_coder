@@ -3,7 +3,7 @@
 
 Clonar el proyecto
 
-git clone https://github.com/waltervd9512/entrega.git
+git clone https://github.com/waltervd9512/preentrega_coder.git
 
 cd .\entrega\
 cd .\BibliotecaWeb\   
