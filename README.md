@@ -23,8 +23,5 @@ py .\manage.py migrate
 Crear base de datos con los Modelos (hacer migraciones y migrar)
 python manage.py makemigrations app_coder
 
-python manage.py migrate
-Crear super-usuario
-python manage.py createsuperuser
-Ejecutar proyecto
-python manage.py runserver
+
+py manage.py runserver
