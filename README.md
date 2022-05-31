@@ -5,7 +5,8 @@ Clonar el proyecto
 
 git clone https://github.com/waltervd9512/preentrega_coder.git
 
-cd .\entrega\
+cd .\preentrega_coder\
+
 cd .\BibliotecaWeb\   
 
 Crear base de datos con los Modelos (hacer migraciones y migrar)
