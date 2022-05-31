@@ -1,0 +1,34 @@
+{% extends "app_biblioteca/index.html" %}
+{% load static %}
+{% block contenidoQueCambia %}
+
+
+     <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-8 align-self-end">
+                        <h1 class="text-white font-weight-bold">Agregar Profesor</h1>
+                       <!--<hr class="divider" />-->
+
+                    </div>
+                    <div class="col-lg-8 align-self-end">
+
+                        <form action="" method="POST">{% csrf_token %}
+
+                            <p>Nombre: <input type="text" name="nombre"></p>
+                            <p>Apellido: <input type="text" name="apellido"></p>
+                            <p>Email: <input type="email" name="email"></p>
+                            <p>Dni: <input type="number" name="dni"></p>
+                           <!-- <p>Esta en digital: <input type="checkbox" name="digital"></p>-->
+                            <br>
+                             <p>{{status}}</p>
+
+                            <br>
+
+                            <input class="btn btn-primary btn-xl" type="submit" value="Asociarme a biblioteca">
+                            <br> <br>
+                        </form>
+
+                    </div>
+
+     </div>
+
+{% endblock %}
